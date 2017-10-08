@@ -1,0 +1,12 @@
+---
+title: "Machine learning models on Wine Quality"
+output: html_notebook
+---
+
+```{r}
+library(data.table)
+red <- fread("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv")
+white <- fread("https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv")
+# "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality.names"
+```
+
